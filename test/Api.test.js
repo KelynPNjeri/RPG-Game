@@ -20,7 +20,7 @@ describe('Api', () => {
   });
 
   fetchMock.post(`${Api.baseUrl}/${Api.gameId}/scores`, {
-    result: 'Leaderboard score created correctly.',
+    result: 'Leaderboard score created correctly.',
   });
 
   it('Gets the leaderboard', async () => {
@@ -46,7 +46,7 @@ describe('Api', () => {
   it('Adds score to leaderboard.', async () => {
     const res = await Api.addScore();
     expect(res).toEqual({
-      result: 'Leaderboard score created correctly.',
+      result: 'Leaderboard score created correctly.',
     });
   });
 });

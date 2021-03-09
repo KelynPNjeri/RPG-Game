@@ -1,4 +1,4 @@
-# Space Jumper
+# RPG Game
 
 RPG game for microverse capstone project.
 
@@ -8,7 +8,7 @@ RPG game for microverse capstone project.
 
 # About
 
-A dead simple RPG game built using [Phaser](https://phaser.io/) V3
+A simple RPG game built using [Phaser](https://phaser.io/) V3
 
 # How to play
 
@@ -24,7 +24,7 @@ A dead simple RPG game built using [Phaser](https://phaser.io/) V3
 
 ```bash
 $ git clone https://github.com/aldemeery/spacejumper.git
-$ cd spacejumper
+$ cd RPG-Game
 $ npm install
 $ npm start
 ```
@@ -61,10 +61,10 @@ Deployed on [GitHub Pages](https://pages.github.com/)
 
 ## Authors
 
-👤 **Osama Aldemeery**
+👤 **Kelyn Paul Njeri**
 
--   Github: [@aldemeery](https://github.com/aldemeery)
--   LinkedIn: [Osama Aldemeery](https://linkedin.com/in/osamaaldemeery)
+- Github: [@KelynPNjeri](https://github.com/KelynPNjeri)
+- LinkedIn: [KelynNjeri](https://www.linkedin.com/in/kelyn-paul/)
 
 ## 🤝 Contributing
 
