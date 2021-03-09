@@ -1,33 +1,16 @@
 {
-  "name": "spacejumper",
+  "name": "jumper",
   "version": "1.0.0",
-  "description": "A phaser 3 game.",
+  "description": "My first RPG game with Phaser.js",
   "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --open --mode development",
-    "build": "webpack --mode production",
-    "lint:js": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "test": "jest"
+  "directories": {
+    "test": "test"
   },
   "jest": {
     "setupFiles": [
       "jest-canvas-mock"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aldemeery/railgunner.git"
-  },
-  "keywords": [
-    "phaser",
-    "game"
-  ],
-  "author": "Osama Aldemeery <aldemeery@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aldemeery/railgunner/issues"
-  },
-  "homepage": "https://github.com/aldemeery/railgunner#readme",
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
@@ -57,5 +40,26 @@
   },
   "dependencies": {
     "phaser": "^3.24.1"
-  }
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production",
+    "lint:js": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelynPNjeri/RPG-Game.git"
+  },
+  "keywords": [
+    "game",
+    "rpg",
+    "first-project-game"
+  ],
+  "author": "Kelyn Njeri <kelynpaul20.kp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KelynPNjeri/RPG-Game/issues"
+  },
+  "homepage": "https://github.com/KelynPNjeri/RPG-Game#readme"
 }
